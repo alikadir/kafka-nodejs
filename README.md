@@ -10,4 +10,6 @@ bitnami **Apache Kafka development setup example** in [bitnami-basic-docker-comp
 
 confluent kafka config with UI in [confluent-advanced-docker-compose.yml](confluent-advanced-docker-compose.yml)
 
+UI monitor http://localhost:9021
+
 

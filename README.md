@@ -14,10 +14,7 @@
 step 1) bitnami **Apache Kafka development setup example** in [bitnami-basic-docker-compose.yml](bitnami-basic-docker-compose.yml)
 
 ##### and Extra UI [Kouncil](https://kouncil.io)
-step 2) 
-```
-$ docker run -d -p 80:8080 -e bootstrapServers="localhost:9092" consdata/kouncil:latest
-```
+step 2) connect kouncil that running on docker compose with http://localhost:8080
 
 
 ### Advanced setup with UI

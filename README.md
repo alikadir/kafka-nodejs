@@ -16,7 +16,7 @@ step 1) bitnami **Apache Kafka development setup example** in [bitnami-basic-doc
 ##### and Extra UI [Kouncil](https://kouncil.io)
 step 2) 
 ```
-docker run -d -p 80:8080 -e bootstrapServers="KAFKA_BROKER_HOST:9092" consdata/kouncil:latest
+$ docker run -d -p 80:8080 -e bootstrapServers="localhost:9092" consdata/kouncil:latest
 ```
 
 
